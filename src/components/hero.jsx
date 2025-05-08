@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <section className='xl:flex-1 border-2 border-green-500'>
+    <section className='xl:flex-1'>
       <h1 className='
         text-Very-Dark-Magenta
         font-League-Spartan

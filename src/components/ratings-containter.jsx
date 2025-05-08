@@ -9,7 +9,7 @@ const ratings = [
 
 export const RatingsContainer = () => {
 
-  const positionClasses = ['place-self-start', 'place-self-center', 'place-self-end'];
+  const positionClasses = ['xl:place-self-start', 'xl:place-self-center', 'xl:place-self-end'];
 
   return (
     <div className='flex flex-col gap-4 xl:flex-1 justify-center items-start'>

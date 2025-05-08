@@ -29,10 +29,13 @@ const reviews = [
 ]
 
 export const Reviews = () => {
+
+  const positionClasses = ['xl:place-self-start', 'xl:place-self-center', 'xl:place-self-end'];
+
   return (
-    <div className='flex flex-col gap-4 xl:flex-row'>
+    <div className='flex flex-col gap-4 xl:flex-row xl:h-[266px] xl:gap-[30px]'>
     {
-      reviews.map(({id, name, imgUrl, buyerType, review}) => {
+      reviews.map(({id, name, imgUrl, buyerType, review}, index) => {
         return(
           <ReviewCard 
             key={id} 
@@ -40,6 +43,7 @@ export const Reviews = () => {
             imgUrl={imgUrl}
             buyerType={buyerType}
             review={review}
+            className={positionClasses[index]}
           />
         )
       }) 
