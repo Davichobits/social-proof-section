@@ -9,8 +9,7 @@ const ratings = [
 
 export const RatingsContainer = () => {
   return (
-    <>
-      <h2>Rating</h2>
+    <div className='flex flex-col gap-4 mb-12'>
       {
         ratings.map((rating) => {
           return(
@@ -18,6 +17,6 @@ export const RatingsContainer = () => {
           )
         })
       }
-    </>
+    </div>
   )
 }
