@@ -12,7 +12,7 @@ export const RatingsContainer = () => {
   const positionClasses = ['xl:place-self-start', 'xl:place-self-center', 'xl:place-self-end'];
 
   return (
-    <div className='flex flex-col gap-4 xl:flex-1 justify-center items-start'>
+    <div className='flex flex-col gap-4  justify-center items-start  xl:w-[540px]'>
       {
         ratings.map((rating, index) => {
 
