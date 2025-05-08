@@ -6,14 +6,14 @@ import { Background } from './components/background'
 function App() {
 
   return (
-    <div className='relative'>
+    <main className='relative px-6 py-20 text-[.9375rem]'>
       <Background />
-    <main className='px-6 py-20 text-[.9375rem]'>
-      <Hero />
-      <RatingsContainer />
-      <Reviews />
+      <div className='mb-12 xl:flex border-2 border-blue-500'>
+        <Hero />
+        <RatingsContainer />
+      </div>
+        <Reviews />
     </main>
-    </div>
   )
 }
 

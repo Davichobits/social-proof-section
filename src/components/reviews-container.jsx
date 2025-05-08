@@ -30,7 +30,7 @@ const reviews = [
 
 export const Reviews = () => {
   return (
-    <div className='flex flex-col gap-4'>
+    <div className='flex flex-col gap-4 xl:flex-row'>
     {
       reviews.map(({id, name, imgUrl, buyerType, review}) => {
         return(
