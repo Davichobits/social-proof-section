@@ -1,4 +1,3 @@
-import React from 'react';
 import { ReviewCard } from './review-card';
 import coltonImg from '../assets/images/image-colton.jpg';
 import ireneImg from '../assets/images/image-irene.jpg';

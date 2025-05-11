@@ -1,4 +1,3 @@
-import React from 'react'
 import bgBottomDesktop from '../assets/images/bg-pattern-bottom-desktop.svg'
 import bgTopDesktop from '../assets/images/bg-pattern-top-desktop.svg'
 import bgBottomMobile from '../assets/images/bg-pattern-bottom-mobile.svg'

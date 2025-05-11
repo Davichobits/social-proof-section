@@ -3,17 +3,7 @@ import IconStar from '../assets/images/icon-star.svg'
 
 export const RatingCard = ({text, className}) => {
   return (
-    <div className={`
-    bg-Light-Grayish-Magenta
-    rounded-lg
-    w-full
-    p-4
-    xl:w-[445px]
-    xl:flex
-    xl:justify-center
-    xl:items-center
-    xl:gap-8 ${className}
-    `}>
+    <div className={`bg-Light-Grayish-Magentarounded-lg w-full p-4 xl:w-[445px] xl:flex xl:justify-center xl:items-center xl:gap-8 ${className}`}>
       <div className='flex place-content-center gap-2 mb-4 xl:mb-0'>
         <img className='size-4' src={IconStar} alt="Icon star" />
         <img className='size-4' src={IconStar} alt="Icon star" />
